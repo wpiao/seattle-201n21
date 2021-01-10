@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Class 1 Lab</title>
+  <style>
+    body {
+      width: 800px;
+      background-color: antiquewhite;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+    }
+
+    h1 {
+      color: cornflowerblue;
+    }
+
+    p {
+      padding: 20px;
+      font-size: x-large;
+      font-weight: bold;
+      margin: auto;
+    }
+
+    footer {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header></header>
+
+  <main>
+    <h1>Class 1 Lab</h1>
+    <p style="color: #FC766AFF; background-color: #5B84B1FF;">What is your first name?</p>
+    <p style="color: #606060FF; background-color: #D6ED17FF;">What is your last name?</p>
+    <p style="color: #00203FFF; background-color: #ADEFD1FF;">Where are your from?</p>
+    <p style="color: #00A4CCFF; background-color: #F95700FF;">What is your hobby?</p>
+  </main>
+
+  <footer>&copy; Code 201</footer>
+
+  <script>
+    let firstName = prompt('What is your first name?');
+    alert(`Greetings, ${firstName}!`);
+    console.log(`What is your first name? Greetings, ${firstName}!`);
+
+    let lastName = prompt('What is your last name?');
+    alert(`Hi, ${firstName} ${lastName}, nice to meet you!`);
+    console.log(`What is your last name? Hi, ${firstName} ${lastName}, nice to meet you!`);
+
+    let homeLocation = prompt('Where are you from?');
+    alert(`${firstName} ${lastName}, I love ${homeLocation}.`);
+    console.log(`Where are you from? ${firstName} ${lastName}, I love ${homeLocation}.`);
+
+    let hobby = prompt('What is your hobby?');
+    alert(`Hi ${firstName} ${lastName} from ${homeLocation}, my hobby is ${hobby} too.`);
+    console.log(`What is your hobby? Hi ${firstName} ${lastName} from ${homeLocation}, my hobby is ${hobby} too.`);
+  </script>
+</body>
+
+</html>
